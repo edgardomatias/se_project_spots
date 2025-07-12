@@ -31,6 +31,6 @@ The landing page features a user profile section, a gallery of image cards, and 
 
 ### Deployment
 
-You can view the live project here: [Spots on GitHub Pages](https://github.com/tripleten-com/se_project_spots.git)
+You can view the live project here: [Spots on GitHub Pages](https://edgardomatias.github.io/se_project_spots/)
 
 Good luck and have fun!
