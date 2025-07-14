@@ -33,4 +33,8 @@ The landing page features a user profile section, a gallery of image cards, and 
 
 You can view the live project here: [Spots on GitHub Pages](https://edgardomatias.github.io/se_project_spots/)
 
+### Spots Project Walkthrough
+
+Click here: [Spots Video Presentation](https://drive.google.com/file/d/1XElR7OUDFQLlzZi45qiNjRviGRjEOV5o/view?usp=share_link)
+
 Good luck and have fun!
