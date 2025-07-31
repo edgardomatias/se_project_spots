@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   font-family: Poppins;
+  padding: 10px;
 }
 
 .modal_is-opened {
@@ -32,6 +33,9 @@
   width: 40px;
   height: 40px;
   background-image: url(../images/close.svg);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .modal__title {
@@ -39,7 +43,6 @@
   font-weight: 500;
   font-style: Medium;
   font-size: 32px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
 }
@@ -54,7 +57,6 @@
   font-weight: 500;
   font-style: Medium;
   font-size: 16px;
-  leading-trim: NONE;
   line-height: 110.00000000000001%;
   letter-spacing: 0%;
 }
@@ -71,7 +73,6 @@
   font-weight: 500;
   font-style: Medium;
   font-size: 20px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
 }
@@ -89,7 +90,26 @@
   font-weight: 500;
   font-style: Medium;
   font-size: 16px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .modal__submit-btn {
+    max-width: none;
+  }
+
+  .modal__title {
+    margin: 0 0 24px;
+    font-size: 20px;
+  }
+
+  .modal__label {
+    margin: 0 0 24px;
+  }
+
+  .modal__input {
+    font-size: 16px;
+  }
 }
